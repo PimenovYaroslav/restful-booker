@@ -1,0 +1,15 @@
+[project]
+name = "restful-booker-tests"
+version = "0.1.0"
+description = "API tests for Restful Booker service"
+authors = [{ name = "Slava" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "pytest",
+    "httpx"
+]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["tests"]
